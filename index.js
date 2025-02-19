@@ -3,7 +3,7 @@ const app = express()
 const fs = require('fs/promises')
 const { threadId } = require('worker_threads')
 
-app.listen(3000, () => console.log("APP LISTEN IN PORT 3000"))
+app.listen(3007, () => console.log("APP LISTEN IN PORT 3007"))
 
 app.use(express.static("static"))
 app.use(express.json())
